@@ -1,4 +1,4 @@
-/* Stylesheet */
+/* global and structure */
 
 .home {
 	background: orange;
@@ -7,3 +7,37 @@
 .gallery {
 	background: red;
 	}
+	
+.container {
+	background: yellow;
+	margin: 0 auto 0 auto;
+	overflow: auto;
+	width: 960px;
+	}
+	
+	
+	/* nav */
+
+.home #home {
+	background: blue;
+	font-weight: bold;
+	}
+	
+.gallery #gallery {
+	
+	background: blue;
+
+	font-weight: bold;
+	}
+	
+	
+	
+	
+	/* gallery */
+	
+section {
+	float: left;
+	margin: 20px;
+	background: black;
+	border: 10px solid lime;
+}
